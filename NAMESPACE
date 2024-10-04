@@ -2,6 +2,12 @@
 
 export(calculateTSS)
 export(mybin)
+export(myncurve)
 export(mysquare)
 importFrom(grDevices,rainbow)
 importFrom(graphics,barplot)
+importFrom(graphics,curve)
+importFrom(graphics,polygon)
+importFrom(graphics,text)
+importFrom(stats,dnorm)
+importFrom(stats,pnorm)
