@@ -27,7 +27,7 @@
 #'
 #' @examples
 #' # Example usage
-#' ntickets(200, 0.02, 0.95)
+#' ntickets(400, 0.02, 0.95)
 #'
 #'
 #' @importFrom rootSolve uniroot.all
