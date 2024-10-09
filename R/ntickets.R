@@ -2,8 +2,6 @@
 #'
 #' This function calculates the optimal number of tickets to sell for a flight,
 #' using both the binomial distribution (discrete case) and the normal approximation (continuous case).
-#' It finds the number of tickets such that the probability of more than \code{N} people showing up
-#' is less than or equal to \code{gamma}.
 #'
 #' @param N Integer. The number of seats on the flight.
 #' @param gamma Numeric. The probability a plane will be truly overbooked.
