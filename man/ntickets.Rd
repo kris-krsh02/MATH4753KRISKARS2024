@@ -26,8 +26,6 @@ A list containing:
 \description{
 This function calculates the optimal number of tickets to sell for a flight,
 using both the binomial distribution (discrete case) and the normal approximation (continuous case).
-It finds the number of tickets such that the probability of more than \code{N} people showing up
-is less than or equal to \code{gamma}.
 }
 \details{
 The function calculates the number of tickets using two methods:
@@ -38,7 +36,7 @@ The function calculates the number of tickets using two methods:
 }
 \examples{
 # Example usage
-ntickets(200, 0.02, 0.95)
+ntickets(400, 0.02, 0.95)
 
 
 }
