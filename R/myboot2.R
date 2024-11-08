@@ -31,7 +31,7 @@
 #' }
 #'
 #' @importFrom graphics abline hist segments text
-#' @importFrom stats apply quantile sample
+#' @importFrom stats quantile
 #' @export
 
 myboot2 <- function(iter = 10000,
