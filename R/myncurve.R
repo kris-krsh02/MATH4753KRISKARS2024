@@ -1,4 +1,4 @@
-#' #' Plot a Normal Curve and Calculate the Area Under the Curve
+#' Plot a Normal Curve and Calculate the Area Under the Curve
 #'
 #' This function plots a normal distribution curve based on the specified mean (`mu`) and
 #' standard deviation (`sigma`), shades the area under the curve from -∞ to `a`, and

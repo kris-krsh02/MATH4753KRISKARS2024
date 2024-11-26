@@ -2,7 +2,7 @@
 % Please edit documentation in R/myncurve.R
 \name{myncurve}
 \alias{myncurve}
-\title{#' Plot a Normal Curve and Calculate the Area Under the Curve}
+\title{Plot a Normal Curve and Calculate the Area Under the Curve}
 \usage{
 myncurve(mu, sigma, a)
 }
