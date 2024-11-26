@@ -2,21 +2,24 @@
 % Please edit documentation in R/calculateTSS.R
 \name{calculateTSS}
 \alias{calculateTSS}
-\title{A function to calculate TSS (total sum of squares)}
+\title{Calculate Total Sum of Squares (TSS)}
 \usage{
 calculateTSS(data, column)
 }
 \arguments{
-\item{data}{a data frame}
+\item{data}{A data frame containing the data.}
 
-\item{column}{name of the column to calculate TSS for}
+\item{column}{A string specifying the name of the column for which to calculate TSS.
+The column should contain numeric values.}
 }
 \value{
-an integer value of TSS
+A numeric value representing the Total Sum of Squares (TSS).
 }
 \description{
-A function to calculate TSS (total sum of squares)
+This function calculates the Total Sum of Squares (TSS) for a specified column in a data frame.
+TSS is the sum of squared deviations from the mean of the specified column.
 }
 \examples{
+# Calculate TSS for the "Sepal.Length" column in the iris dataset
 calculateTSS(iris, "Sepal.Length")
 }

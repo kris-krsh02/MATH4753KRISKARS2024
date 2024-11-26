@@ -2,19 +2,23 @@
 % Please edit documentation in R/mysquare.R
 \name{mysquare}
 \alias{mysquare}
-\title{The square function}
+\title{Square Function}
 \usage{
 mysquare(x)
 }
 \arguments{
-\item{x}{a vector of quantitative data}
+\item{x}{A numeric vector. Each element should be a quantitative value to be squared.}
 }
 \value{
-a vector
+A numeric vector with each element squared.
 }
 \description{
-The square function
+This function computes the square of each element in a numeric vector.
 }
 \examples{
+# Square a vector of integers from 1 to 10
 mysquare(x = 1:10)
+
+# Square a vector of real numbers
+mysquare(x = c(0.5, 1.5, 2.5))
 }

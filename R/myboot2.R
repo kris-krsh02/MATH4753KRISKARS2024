@@ -23,12 +23,10 @@
 #' }
 #'
 #' @examples
-#' \dontrun{
 #' # Sample data
 #' sample_data <- rnorm(100, mean = 5, sd = 2)
 #' # Calculate bootstrap confidence interval for the mean
 #' result <- myboot2(iter = 5000, x = sample_data, fun = "mean", alpha = 0.05)
-#' }
 #'
 #' @importFrom graphics abline hist segments text
 #' @importFrom stats quantile

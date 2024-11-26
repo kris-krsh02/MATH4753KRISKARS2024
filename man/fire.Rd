@@ -14,11 +14,10 @@ An object of class \code{data.frame} with 15 rows and 2 columns.
 fire
 }
 \description{
-A data set collected concerning home damage from fire
+A data set collected concerning home damage from fire.
 }
 \details{
-@format A data frame with 15 rows and 2 variables:
- \describe{
+\describe{
  \item{DISTANCE}{distance from fire station in miles}
  \item{DAMAGE}{X 1000 dollars in damage}
  }
